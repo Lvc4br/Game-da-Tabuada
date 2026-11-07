@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game da Tabuada</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <!-- Tela inicial -->
+        <section id="telaInicial">
+            <h1>Game da Tabuada</h1>
+            <button type="button" id="iniciar">ENTER</button>
+        </section>
+
+        <!-- Tela do jogo -->
+        <form id="tabuada" hidden>
+            <h2>Resolva a multiplicação</h2>
+
+            <p id="pergunta">
+                <span id="ValorA">0</span> ×
+                <span id="ValorB">0</span>
+            </p>
+
+            <input
+                type="number"
+                id="respUser"
+                placeholder="Sua resposta"
+                autocomplete="off"
+                required
+            >
+
+            <button type="submit">Conferir</button>
+
+            <div class="pontos">
+                <p>Acertos: <span id="acertosUser">0</span></p>
+                <p>Erros: <span id="errosUser">0</span></p>
+            </div>
+
+            <p>Recorde: <span id="recorde">0</span></p>
+        </form>
+
+        <!-- Mensagens do jogo -->
+        <p id="mensagem" hidden></p>
+
+        <!-- Tela final -->
+        <section id="telaFinal" hidden>
+            <h2>GAME OVER</h2>
+
+            <p>Seu score: <span id="scoreFinal">0</span></p>
+            <p>Maior score: <span id="recordeFinal">0</span></p>
+
+            <button type="button" id="jogarNovamente">
+                Jogar novamente
+            </button>
+        </section>
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
