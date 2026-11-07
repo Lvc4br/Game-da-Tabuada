@@ -4,6 +4,12 @@ Jogo educativo desenvolvido como parte de um **desafio da ETEC**: criar um jogo 
 
 A proposta é praticar multiplicação de forma interativa, em uma interface com visual inspirado em jogos retrô/arcade.
 
+## Acessar o jogo
+
+**Jogue online:** [https://lvc4br.github.io/Game-da-Tabuada/](https://lvc4br.github.io/Game-da-Tabuada/)
+
+O jogo pode ser aberto diretamente pelo navegador, sem baixar ou instalar arquivos.
+
 ## Como jogar
 
 1. Abra o jogo pelo botão **ENTER**.
@@ -20,7 +26,7 @@ O recorde fica salvo no próprio navegador por meio do `localStorage`.
 - **CSS3** — layout, responsividade e identidade visual retrô.
 - **JavaScript** — perguntas aleatórias, validação das respostas, pontuação e recorde.
 
-## Como executar
+## Como executar localmente
 
 Não é necessário instalar dependências:
 
